@@ -27,7 +27,7 @@ const Student = db.define("student", {
   },
 
   gpa: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.STRING,
   }
 });
 
