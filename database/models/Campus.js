@@ -24,6 +24,7 @@ const Campus = db.define("campus", {
 
   imageUrl: {
     type: Sequelize.STRING,
+    defaultValue: 'https://s2.research.com/wp-content/uploads/2020/12/24120822/50-most-beautiful-college-campuses-in-America-1-1200x600.jpg'
   }
 });
 

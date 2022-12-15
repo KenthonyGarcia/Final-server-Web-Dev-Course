@@ -19,11 +19,12 @@ const Student = db.define("student", {
 
   email: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: true
   },
 
   imageUrl: {
     type: Sequelize.STRING,
+    defaultValue: "https://d2jyir0m79gs60.cloudfront.net/news/images/successful-college-student-lg.png"
   },
 
   gpa: {
